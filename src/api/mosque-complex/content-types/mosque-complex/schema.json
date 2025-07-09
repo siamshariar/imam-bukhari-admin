@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "mosque_complexes",
+  "info": {
+    "singularName": "mosque-complex",
+    "pluralName": "mosque-complexes",
+    "displayName": "Mosque Complex",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "details": {
+      "type": "text"
+    },
+    "items": {
+      "displayName": "items",
+      "type": "component",
+      "repeatable": true,
+      "component": "list-category.items"
+    }
+  }
+}

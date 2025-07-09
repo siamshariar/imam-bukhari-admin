@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "kullia_project_summaries",
+  "info": {
+    "singularName": "kullia-project-summary",
+    "pluralName": "kullia-project-summaries",
+    "displayName": "Kullia Project Summary",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "displayName": "content",
+      "type": "component",
+      "repeatable": false,
+      "component": "list-category.content"
+    },
+    "sliderImages": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

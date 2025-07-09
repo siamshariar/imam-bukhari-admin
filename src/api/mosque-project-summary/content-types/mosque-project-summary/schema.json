@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "mosque_project_summaries",
+  "info": {
+    "singularName": "mosque-project-summary",
+    "pluralName": "mosque-project-summaries",
+    "displayName": "Mosque Project Summary",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "displayName": "Description",
+      "type": "component",
+      "repeatable": false,
+      "component": "list-category.description"
+    },
+    "sliderImages": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

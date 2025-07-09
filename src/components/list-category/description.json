@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_list_category_descriptions",
+  "info": {
+    "displayName": "Description",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "list-category.list"
+    }
+  }
+}

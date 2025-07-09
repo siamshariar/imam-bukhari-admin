@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_common_menu_items",
+  "info": {
+    "displayName": "MenuItem",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "displayName": {
+      "type": "string",
+      "required": true
+    },
+    "order": {
+      "type": "string"
+    },
+    "isDislpay": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_common_page_infos",
+  "info": {
+    "displayName": "PageInfo",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "pageInfo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.page"
+    },
+    "metaInfo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.meta"
+    },
+    "menuInfo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.menu-item"
+    }
+  }
+}

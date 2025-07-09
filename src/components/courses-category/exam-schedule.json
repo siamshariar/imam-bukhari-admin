@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_courses_category_exam_schedules",
+  "info": {
+    "displayName": "ExamSchedule"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "time": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

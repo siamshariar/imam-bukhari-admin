@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "imam_bukhari_details",
+  "info": {
+    "singularName": "imam-bukhari-detail",
+    "pluralName": "imam-bukhari-details",
+    "displayName": "Imam Bukhari Detail"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    }
+  }
+}

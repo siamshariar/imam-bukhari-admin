@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_list_category_curricula",
+  "info": {
+    "displayName": "Curriculum"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "displayName": "Curriculam",
+      "type": "component",
+      "repeatable": true,
+      "component": "list-category.curriculam"
+    }
+  }
+}

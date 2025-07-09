@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "characteristics_darul_hadiths",
+  "info": {
+    "singularName": "characteristics-darul-hadith",
+    "pluralName": "characteristics-darul-hadiths",
+    "displayName": "Characteristics Darul Hadith"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "displayName": "Characteristic",
+      "type": "component",
+      "repeatable": true,
+      "component": "list-category.characteristic"
+    }
+  }
+}

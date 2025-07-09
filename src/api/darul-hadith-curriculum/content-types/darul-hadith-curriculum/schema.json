@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "darul_hadith_curricula",
+  "info": {
+    "singularName": "darul-hadith-curriculum",
+    "pluralName": "darul-hadith-curricula",
+    "displayName": "Darul Hadith Curriculum"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "darulHadithCurriculum": {
+      "displayName": "Curriculum",
+      "type": "component",
+      "repeatable": false,
+      "component": "list-category.curriculum"
+    }
+  }
+}

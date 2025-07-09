@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "admission_informations",
+  "info": {
+    "singularName": "admission-information",
+    "pluralName": "admission-informations",
+    "displayName": "Admission Information"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "informations": {
+      "type": "component",
+      "repeatable": true,
+      "component": "courses-category.course-detail"
+    }
+  }
+}

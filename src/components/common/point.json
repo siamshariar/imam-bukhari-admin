@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_common_points",
+  "info": {
+    "displayName": "Point",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "listItem": {
+      "type": "string"
+    }
+  }
+}

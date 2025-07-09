@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_common_pages",
+  "info": {
+    "displayName": "Page"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "excerpt": {
+      "type": "text"
+    }
+  }
+}

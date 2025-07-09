@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_list_category_department_lists",
+  "info": {
+    "displayName": "departmentList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "type": "string"
+    }
+  }
+}

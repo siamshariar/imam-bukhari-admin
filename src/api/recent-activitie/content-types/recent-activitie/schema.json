@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "recent_activities",
+  "info": {
+    "singularName": "recent-activitie",
+    "pluralName": "recent-activities",
+    "displayName": "Recent activitie",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "para": {
+      "type": "string"
+    },
+    "sliderImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_quote_category_quotes",
+  "info": {
+    "displayName": "Quote",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "quoter": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "quoteExcerpt": {
+      "type": "text"
+    },
+    "button": {
+      "type": "string"
+    },
+    "fullQuote": {
+      "type": "blocks"
+    }
+  }
+}

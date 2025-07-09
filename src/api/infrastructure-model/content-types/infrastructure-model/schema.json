@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "infrastructure_models",
+  "info": {
+    "singularName": "infrastructure-model",
+    "pluralName": "infrastructure-models",
+    "displayName": "Infrastructure model"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "sliderImages": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

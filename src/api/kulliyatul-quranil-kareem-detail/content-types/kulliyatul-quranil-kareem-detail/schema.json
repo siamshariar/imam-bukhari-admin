@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "kulliyatul_quranil_kareem_details",
+  "info": {
+    "singularName": "kulliyatul-quranil-kareem-detail",
+    "pluralName": "kulliyatul-quranil-kareem-details",
+    "displayName": "Kulliyatul Quranil Kareem Detail"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

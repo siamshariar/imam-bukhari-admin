@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "characteristics_kullias",
+  "info": {
+    "singularName": "characteristics-kullia",
+    "pluralName": "characteristics-kullias",
+    "displayName": "Characteristics kullia"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "items": {
+      "displayName": "characteristics",
+      "type": "component",
+      "repeatable": true,
+      "component": "list-category.characteristics"
+    }
+  }
+}

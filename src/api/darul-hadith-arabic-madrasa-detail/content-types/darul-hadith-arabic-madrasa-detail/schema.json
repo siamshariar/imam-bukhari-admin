@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "darul_hadith_arabic_madrasa_details",
+  "info": {
+    "singularName": "darul-hadith-arabic-madrasa-detail",
+    "pluralName": "darul-hadith-arabic-madrasa-details",
+    "displayName": "Darul Hadith Arabic Madrasa detail"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

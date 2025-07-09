@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_courses_category_courses",
+  "info": {
+    "displayName": "Courses"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "excerpt": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

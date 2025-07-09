@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_list_category_process_universities",
+  "info": {
+    "displayName": "processUniversities"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "displayName": "progress",
+      "type": "component",
+      "repeatable": true,
+      "component": "list-category.progress"
+    }
+  }
+}

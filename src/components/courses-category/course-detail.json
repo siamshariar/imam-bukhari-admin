@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_courses_category_course_details",
+  "info": {
+    "displayName": "CourseDetail",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "listItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.point"
+    }
+  }
+}

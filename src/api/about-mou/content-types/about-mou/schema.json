@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_mous",
+  "info": {
+    "singularName": "about-mou",
+    "pluralName": "about-mous",
+    "displayName": "Mou",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "aboutMouTitle": {
+      "type": "string"
+    },
+    "aboutMouPara1": {
+      "type": "text"
+    },
+    "aboutMouPara2": {
+      "type": "text"
+    },
+    "aboutMouList1": {
+      "type": "component",
+      "repeatable": true,
+      "component": "list-category.list"
+    },
+    "aboutMouList2": {
+      "type": "component",
+      "repeatable": true,
+      "component": "list-category.list"
+    },
+    "aboutMouList3": {
+      "type": "component",
+      "repeatable": true,
+      "component": "list-category.list"
+    }
+  }
+}

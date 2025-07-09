@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "academic_head_messages",
+  "info": {
+    "singularName": "academic-head-message",
+    "pluralName": "academic-head-messages",
+    "displayName": "Academic Head Message",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "excerpt": {
+      "type": "text",
+      "required": true
+    },
+    "description": {
+      "type": "blocks",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

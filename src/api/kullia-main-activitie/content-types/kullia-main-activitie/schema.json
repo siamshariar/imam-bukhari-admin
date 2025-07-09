@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "kullia_main_activities",
+  "info": {
+    "singularName": "kullia-main-activitie",
+    "pluralName": "kullia-main-activities",
+    "displayName": "Kullia Main activitie"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "arbTitle": {
+      "type": "string"
+    },
+    "bnText": {
+      "type": "string"
+    },
+    "ref": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "Features": {
+      "displayName": "features",
+      "type": "component",
+      "repeatable": true,
+      "component": "about.features"
+    }
+  }
+}

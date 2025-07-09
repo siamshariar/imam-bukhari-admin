@@ -1,0 +1,86 @@
+{
+  "kind": "singleType",
+  "collectionName": "page_informations",
+  "info": {
+    "singularName": "page-information",
+    "pluralName": "page-informations",
+    "displayName": "Page Information",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "home": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.page-info"
+    },
+    "about": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.page-info"
+    },
+    "advisors": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.page-info"
+    },
+    "members": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.page-info"
+    },
+    "courses": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.page-info"
+    },
+    "videos": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.page-info"
+    },
+    "admissionInformation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.page-info"
+    },
+    "contact": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.page-info"
+    },
+    "blogs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.page-info"
+    },
+    "events": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.page-info"
+    },
+    "photoGallery": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.page-info"
+    },
+    "books": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.page-info"
+    },
+    "notices": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.page-info"
+    },
+    "faq": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.page-info"
+    }
+  }
+}

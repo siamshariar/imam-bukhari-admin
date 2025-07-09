@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_board_advisory_boards",
+  "info": {
+    "displayName": "Advisory Board"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "designation": {
+      "type": "string"
+    }
+  }
+}

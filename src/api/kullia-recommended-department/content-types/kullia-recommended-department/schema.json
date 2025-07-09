@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "kullia_recommended_departments",
+  "info": {
+    "singularName": "kullia-recommended-department",
+    "pluralName": "kullia-recommended-departments",
+    "displayName": "Kullia Recommended Department",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "kulliaDepartment": {
+      "displayName": "kulliyaDepartment",
+      "type": "component",
+      "repeatable": false,
+      "component": "list-category.kulliya-department"
+    },
+    "progressUniversity": {
+      "displayName": "processUniversities",
+      "type": "component",
+      "repeatable": false,
+      "component": "list-category.process-universities"
+    }
+  }
+}
