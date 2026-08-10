@@ -81,6 +81,31 @@
       "type": "component",
       "repeatable": false,
       "component": "common.page-info"
+    },
+    "bukhariJameMasjid": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.page-info"
+    },
+    "kulliyatulQuranilKareem": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.page-info"
+    },
+    "darulHadithArabicMadrasa": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.page-info"
+    },
+    "sunnahConference": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.page-info"
+    },
+    "donate": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.page-info"
     }
   }
 }
