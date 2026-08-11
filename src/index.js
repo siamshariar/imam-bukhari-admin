@@ -29,24 +29,28 @@ module.exports = {
    * run jobs, or perform some special logic.
    */
   async bootstrap({ strapi }) {
-    const uid = 'api::page-information.page-information';
-    const existing = await strapi.entityService.findMany(uid);
-    if (!existing) return;
+    try {
+      const uid = 'api::page-information.page-information';
+      const existing = await strapi.entityService.findMany(uid);
+      if (!existing) return;
 
-    const updateData = {};
-    for (const [key, val] of Object.entries(DEFAULTS)) {
-      if (!existing[key]) {
-        updateData[key] = {
-          menuInfo: { displayName: val.displayName, order: val.order, isDislpay: true },
-          metaInfo: { title: val.title, description: '' },
-          pageInfo: { title: val.title, excerpt: '' },
-        };
+      const updateData = {};
+      for (const [key, val] of Object.entries(DEFAULTS)) {
+        if (!existing[key]) {
+          updateData[key] = {
+            menuInfo: { displayName: val.displayName, order: val.order, isDislpay: true },
+            metaInfo: { title: val.title, description: '' },
+            pageInfo: { title: val.title, excerpt: '' },
+          };
+        }
       }
-    }
 
-    if (Object.keys(updateData).length > 0) {
-      await strapi.entityService.update(uid, existing.id, { data: updateData });
-      strapi.log.info(`Seeded default Page Information menu entries: ${Object.keys(updateData).join(', ')}`);
+      if (Object.keys(updateData).length > 0) {
+        await strapi.entityService.update(uid, existing.id, { data: updateData });
+        strapi.log.info(`Seeded default Page Information menu entries: ${Object.keys(updateData).join(', ')}`);
+      }
+    } catch (error) {
+      strapi.log.error('Failed to seed default Page Information menu entries:', error);
     }
   },
 };
