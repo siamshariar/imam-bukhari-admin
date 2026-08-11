@@ -24,11 +24,6 @@
       "type": "text",
       "required": true
     },
-    "slug": {
-      "type": "uid",
-      "targetField": "question",
-      "required": true
-    },
     "isDisplayHome": {
       "type": "boolean",
       "default": true,
