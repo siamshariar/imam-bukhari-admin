@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_kulliya_page_main_activities",
+  "info": {
+    "displayName": "Main Activities"
+  },
+  "options": {},
+  "attributes": {
+    "arbTitle": {
+      "type": "string"
+    },
+    "bnText": {
+      "type": "string"
+    },
+    "ref": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "Features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about.features"
+    }
+  }
+}

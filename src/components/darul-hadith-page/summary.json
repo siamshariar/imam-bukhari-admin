@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_darul_hadith_page_summaries",
+  "info": {
+    "displayName": "Summary"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": false,
+      "component": "list-category.listitem"
+    },
+    "sliderImages": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

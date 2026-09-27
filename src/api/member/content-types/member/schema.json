@@ -37,6 +37,17 @@
     },
     "description": {
       "type": "blocks"
+    },
+    "excerpt": {
+      "type": "text"
+    },
+    "isTeacher": {
+      "type": "boolean",
+      "default": false
+    },
+    "isBoardOfDirector": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

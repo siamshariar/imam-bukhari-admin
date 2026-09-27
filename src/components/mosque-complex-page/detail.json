@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_mosque_complex_page_details",
+  "info": {
+    "displayName": "Detail"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    }
+  }
+}

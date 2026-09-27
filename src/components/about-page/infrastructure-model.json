@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_about_page_infrastructure_models",
+  "info": {
+    "displayName": "Infrastructure Model"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "sliderImages": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

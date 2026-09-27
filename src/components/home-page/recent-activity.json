@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_home_page_recent_activities",
+  "info": {
+    "displayName": "Recent Activity"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "para": {
+      "type": "string"
+    },
+    "sliderImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "mosque_complex_pages",
+  "info": {
+    "singularName": "mosque-complex-page",
+    "pluralName": "mosque-complex-pages",
+    "displayName": "Mosque Complex Page",
+    "description": "মসজিদ কমপ্লেক্স page-এর সব section এক জায়গায় — detail, project summary, main activities, complex info, homeCard (home/about-এ প্রিভিউ দেখানোর জন্য)"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "homeCard": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.project-card"
+    },
+    "detail": {
+      "type": "component",
+      "repeatable": false,
+      "component": "mosque-complex-page.detail"
+    },
+    "projectSummary": {
+      "type": "component",
+      "repeatable": false,
+      "component": "mosque-complex-page.project-summary"
+    },
+    "mainActivities": {
+      "type": "component",
+      "repeatable": false,
+      "component": "mosque-complex-page.main-activities"
+    },
+    "complexInfo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "mosque-complex-page.complex-info"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.meta"
+    }
+  }
+}

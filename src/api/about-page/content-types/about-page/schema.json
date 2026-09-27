@@ -1,0 +1,61 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_pages",
+  "info": {
+    "singularName": "about-page",
+    "pluralName": "about-pages",
+    "displayName": "About Page",
+    "description": "About page-এর সব section এক জায়গায় — about content, project cards (relation), characteristics, infrastructure model"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "aboutImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "aboutContentBlocks": {
+      "type": "blocks"
+    },
+    "projectsSectionTitle": {
+      "type": "string",
+      "default": "আমাদের প্রকল্পসমূহ"
+    },
+    "mosqueComplexPage": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::mosque-complex-page.mosque-complex-page"
+    },
+    "kulliyaPage": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::kulliya-page.kulliya-page"
+    },
+    "darulHadithPage": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::darul-hadith-page.darul-hadith-page"
+    },
+    "characteristics": {
+      "type": "component",
+      "repeatable": true,
+      "component": "courses-category.course-detail"
+    },
+    "infrastructureModel": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about-page.infrastructure-model"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.meta"
+    }
+  }
+}

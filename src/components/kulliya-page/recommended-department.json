@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_kulliya_page_recommended_departments",
+  "info": {
+    "displayName": "Recommended Department"
+  },
+  "options": {},
+  "attributes": {
+    "kulliaDepartment": {
+      "type": "component",
+      "repeatable": false,
+      "component": "list-category.kulliya-department"
+    },
+    "progressUniversity": {
+      "type": "component",
+      "repeatable": false,
+      "component": "list-category.process-universities"
+    }
+  }
+}

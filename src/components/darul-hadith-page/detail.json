@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_about_abouts",
+  "collectionName": "components_darul_hadith_page_details",
   "info": {
-    "displayName": "About"
+    "displayName": "Detail"
   },
   "options": {},
   "attributes": {
@@ -9,7 +9,7 @@
       "type": "string"
     },
     "description": {
-      "type": "richtext"
+      "type": "text"
     }
   }
 }

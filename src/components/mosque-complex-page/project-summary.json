@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_mosque_complex_page_project_summaries",
+  "info": {
+    "displayName": "Project Summary"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "list-category.description"
+    },
+    "sliderImages": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

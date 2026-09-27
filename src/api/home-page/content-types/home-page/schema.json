@@ -1,0 +1,84 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "Home Page",
+    "description": "Home page-এর সব section এক জায়গায় — banner, about text, project cards, intro video, recent activities, academic committee, slider, SEO"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "banner-category.banner"
+    },
+    "aboutShortText": {
+      "type": "text"
+    },
+    "projectsSectionTitle": {
+      "type": "string",
+      "default": "আমাদের প্রকল্পসমূহ"
+    },
+    "mosqueComplexCard": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.project-card"
+    },
+    "kulliyaCard": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.project-card"
+    },
+    "darulHadithCard": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.project-card"
+    },
+    "founderMessage": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::founder-message.founder-message"
+    },
+    "introVideo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.intro-video"
+    },
+    "recentActivities": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home-page.recent-activity"
+    },
+    "academicCommittee": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.academic-committee"
+    },
+    "academicCommitteeMembers": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::member.member"
+    },
+    "slider": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.meta"
+    }
+  }
+}

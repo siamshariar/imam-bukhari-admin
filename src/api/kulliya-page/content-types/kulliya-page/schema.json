@@ -1,0 +1,56 @@
+{
+  "kind": "singleType",
+  "collectionName": "kulliya_pages",
+  "info": {
+    "singularName": "kulliya-page",
+    "pluralName": "kulliya-pages",
+    "displayName": "Kulliya Page",
+    "description": "কুল্লিয়াতুল কুরআনিল কারীম page-এর সব section এক জায়গায়"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "homeCard": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.project-card"
+    },
+    "detail": {
+      "type": "component",
+      "repeatable": false,
+      "component": "kulliya-page.detail"
+    },
+    "projectSummary": {
+      "type": "component",
+      "repeatable": false,
+      "component": "kulliya-page.project-summary"
+    },
+    "academicCommitteeMembers": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::member.member"
+    },
+    "mainActivities": {
+      "type": "component",
+      "repeatable": false,
+      "component": "kulliya-page.main-activities"
+    },
+    "recommendedDepartment": {
+      "type": "component",
+      "repeatable": false,
+      "component": "kulliya-page.recommended-department"
+    },
+    "characteristics": {
+      "type": "component",
+      "repeatable": true,
+      "component": "list-category.characteristics"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.meta"
+    }
+  }
+}

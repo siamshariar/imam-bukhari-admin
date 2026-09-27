@@ -1,14 +1,20 @@
 {
-  "collectionName": "components_board_activities",
+  "collectionName": "components_home_page_project_cards",
   "info": {
-    "displayName": "activities"
+    "displayName": "Project Card"
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "string"
     },
-    "image": {
+    "subtitle": {
+      "type": "string"
+    },
+    "message": {
+      "type": "text"
+    },
+    "images": {
       "allowedTypes": [
         "images",
         "files",
@@ -16,7 +22,7 @@
         "audios"
       ],
       "type": "media",
-      "multiple": false
+      "multiple": true
     }
   }
 }
