@@ -57,22 +57,7 @@
       "repeatable": false,
       "component": "common.page-info"
     },
-    "events": {
-      "type": "component",
-      "repeatable": false,
-      "component": "common.page-info"
-    },
     "photoGallery": {
-      "type": "component",
-      "repeatable": false,
-      "component": "common.page-info"
-    },
-    "books": {
-      "type": "component",
-      "repeatable": false,
-      "component": "common.page-info"
-    },
-    "notices": {
       "type": "component",
       "repeatable": false,
       "component": "common.page-info"
