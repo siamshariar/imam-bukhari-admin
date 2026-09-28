@@ -4,7 +4,7 @@
   "info": {
     "singularName": "donate",
     "pluralName": "donates",
-    "displayName": "8.Donate"
+    "displayName": "8. Donate"
   },
   "options": {
     "draftAndPublish": true

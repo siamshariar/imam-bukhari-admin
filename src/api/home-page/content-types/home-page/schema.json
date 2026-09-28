@@ -4,7 +4,7 @@
   "info": {
     "singularName": "home-page",
     "pluralName": "home-pages",
-    "displayName": "1.Home Page",
+    "displayName": "1. Home Page",
     "description": "Home page-এর সব section এক জায়গায় — banner, about text, project cards, intro video, recent activities, slider"
   },
   "options": {

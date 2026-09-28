@@ -4,7 +4,7 @@
   "info": {
     "singularName": "about-page",
     "pluralName": "about-pages",
-    "displayName": "2.About Page",
+    "displayName": "2. About Page",
     "description": "About page-এর সব section এক জায়গায় — about content, project cards (relation), characteristics, infrastructure model"
   },
   "options": {
