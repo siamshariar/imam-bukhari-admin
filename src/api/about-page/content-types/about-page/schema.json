@@ -51,11 +51,6 @@
       "type": "component",
       "repeatable": false,
       "component": "about-page.infrastructure-model"
-    },
-    "seo": {
-      "type": "component",
-      "repeatable": false,
-      "component": "common.meta"
     }
   }
 }
